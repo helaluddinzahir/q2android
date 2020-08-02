@@ -15,7 +15,7 @@ public class Q2AWebsite {
 		
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-		String website = CUSTOM_WEBSITE  != null ? CUSTOM_WEBSITE : prefs.getString("website", "");
+		String website = CUSTOM_WEBSITE  != null ? CUSTOM_WEBSITE : prefs.getString("website", "https://proshnotori.net");
 		if(website.length() == 0)
 			return null;
 	
@@ -30,7 +30,7 @@ public class Q2AWebsite {
 
 		// potential problems
 		
-		website = website.replaceAll("\\?.*", "").replaceAll("index.php$","");
+		website = website.replaceAll("\\?.*", "https://proshnotori.net").replaceAll("index.php$","");
 		
 		if(!website.endsWith("/"))
 			website = website+"/";
