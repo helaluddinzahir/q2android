@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-public class Q2AWebsite {
+public class Q2AWebsite {https://proshnotori.com/
 
 	// set this if you are hardcoding a website into your app
 	public final static String CUSTOM_WEBSITE = null;
