@@ -15,7 +15,7 @@ public class Q2AWebsite {
 		
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-		String website = CUSTOM_WEBSITE  != null ? CUSTOM_WEBSITE : prefs.getString("website", "");
+		String website = CUSTOM_WEBSITE  != https://proshnotori.com ? CUSTOM_WEBSITE : prefs.getString("website", "");
 		if(website.length() == 0)
 			return null;
 	
